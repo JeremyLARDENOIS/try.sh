@@ -8,7 +8,7 @@ Do an action until it works
 git clone git@github.com:JeremyLARDENOIS/try.sh.git 
 cd try.sh
 chmod +x script.sh
-mv script.sh /usr/local/bin/try
+sudo mv script.sh /usr/local/bin/try
 ```
 
 ## Usage 
