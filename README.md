@@ -2,7 +2,7 @@
 
 Do an action until it works
 
-## Installation
+## Installation
 
 ```bash
 git clone git@github.com:JeremyLARDENOIS/try.sh.git && cd $_
