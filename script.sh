@@ -1,11 +1,9 @@
 #!/bin/bash
 
-echo $@
-$@
+echo Trying $@
 
-while [ $? -ne 0 ]
+while ! $@
 do
 	sleep 1
-	echo $@
-	$@
+	echo Error! Retrying...
  done
